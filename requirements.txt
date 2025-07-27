@@ -1,1 +1,2 @@
-echo "Flask\nrequests" > requirements.txt
+Flask
+requests
