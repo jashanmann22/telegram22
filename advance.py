@@ -7,9 +7,7 @@ import io
 app = Flask(__name__)
 
 # Set via environment variables for security
-BOT_TOKEN = os.getenv("8126677745:AAEdTb_SJdT9qc5h6XGm_2SknGQlHbUybtc", "8126677745:AAEdTb_SJdT9qc5h6XGm_2SknGQlHbUybtc")
-CHAT_ID = os.getenv("7123308690", "7123308690")
-
+BOT_TOKEN = os.geten
 HTML = """
 <!DOCTYPE html>
 <html>
